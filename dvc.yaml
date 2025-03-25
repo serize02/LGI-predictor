@@ -1,0 +1,8 @@
+stages:
+  data_ingestion:
+    cmd: python pipelines/00_data_ingestion.py
+    deps:
+      - pipelines/00_data_ingestion.py
+      - config/config.yaml
+    outs:
+      - data/raw/data.csv
