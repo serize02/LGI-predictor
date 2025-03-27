@@ -173,8 +173,9 @@ cython_debug/
 # PyPI configuration file
 .pypirc
 
-data/processed/data.csv
-data/raw/data.csv
+data/processed/clf/data.csv
+data/processed/reg/data.csv
+data/raw/
 
 mlruns/
 .DS_Store
