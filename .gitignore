@@ -174,8 +174,7 @@ cython_debug/
 .pypirc
 
 data/processed/clf/data.csv
-data/processed/reg/data.csv
-data/raw/
+data/raw/data.csv
 
 mlruns/
 .DS_Store
